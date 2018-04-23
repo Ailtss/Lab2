@@ -12,4 +12,4 @@ COMO COMPILAR:
 
 
 Dificuldades: Encontrei dificuldades em tornar o programa mais eficiente, visto que utilizei duas classes separadas para o cálculo de figuras planas e espaciais. Porém, as figuras espaciais herdam muitos artifícios das figuras planas mas não consegui utilizar
-deste artíficio na implementação, deixando assim menos eficiente acredito.
+deste artíficio na implementação, deixando assim menos eficiente.
