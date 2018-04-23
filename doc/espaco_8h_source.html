@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Laboratório 2: Código-Fonte de include/espaco.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Laboratório 2
+   </div>
+   <div id="projectbrief">Cálculo de medidas de figuras planas e espaciais</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Arquivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funções</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">espaco.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="espaco_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ESPACO_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ESPACO_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="plano_8h.html">plano.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classespaco.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classespaco.html">espaco</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">string</span> m_nome;  </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">float</span> m_aresta1; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">float</span> m_aresta2; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">float</span> m_aresta3; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">float</span> m_altura; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">float</span> m_raio;   </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> m_arealateral;  </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">float</span> m_areabase;    </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> m_areatotal;   </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">float</span> m_volume;     </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="classespaco.html#a9bbff7063c5c958880a24dfd4cce81b4">espaco</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classespaco.html#ab87c7438dedcba551dd75e941a4375f7">~espaco</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classespaco.html#a74d3119fac1165300166f0a21e52d532">setPiramide</a>(<span class="keywordtype">string</span> nome, <span class="keywordtype">string</span> areabase, <span class="keywordtype">string</span> arealateral, <span class="keywordtype">string</span> altura);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classespaco.html#a46a84d6266529df2efd7fd9e57666ae5">setCubo</a>(<span class="keywordtype">string</span> nome, <span class="keywordtype">string</span> aresta);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classespaco.html#a75b4250810235e69dfa75bd5258b2c47">setParalelepipedo</a>(<span class="keywordtype">string</span> nome, <span class="keywordtype">string</span> aresta1, <span class="keywordtype">string</span> aresta2, <span class="keywordtype">string</span> aresta3);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classespaco.html#a3357a4acfddb4aa0b6e7f012ec51dc71">setEsfera</a>(<span class="keywordtype">string</span> nome, <span class="keywordtype">string</span> raio);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classespaco.html#a27d7d181f0d8e8d321cc059ad5c24c0a">getAreaTotal</a>();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classespaco.html#a5c12e64a4b086c930fd7957264c40daf">getVolume</a>();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classespaco_html_a27d7d181f0d8e8d321cc059ad5c24c0a"><div class="ttname"><a href="classespaco.html#a27d7d181f0d8e8d321cc059ad5c24c0a">espaco::getAreaTotal</a></div><div class="ttdeci">float getAreaTotal()</div><div class="ttdoc">Método getter para retornar o valor da Área Total da figura. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:79</div></div>
+<div class="ttc" id="plano_8h_html"><div class="ttname"><a href="plano_8h.html">plano.h</a></div></div>
+<div class="ttc" id="classespaco_html_a74d3119fac1165300166f0a21e52d532"><div class="ttname"><a href="classespaco.html#a74d3119fac1165300166f0a21e52d532">espaco::setPiramide</a></div><div class="ttdeci">void setPiramide(string nome, string areabase, string arealateral, string altura)</div><div class="ttdoc">Método setter para atribuir valores, caso seja uma piramide. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:33</div></div>
+<div class="ttc" id="classespaco_html_a46a84d6266529df2efd7fd9e57666ae5"><div class="ttname"><a href="classespaco.html#a46a84d6266529df2efd7fd9e57666ae5">espaco::setCubo</a></div><div class="ttdeci">void setCubo(string nome, string aresta)</div><div class="ttdoc">Método setter para atribuir valores, caso seja um cubo. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:45</div></div>
+<div class="ttc" id="classespaco_html_ab87c7438dedcba551dd75e941a4375f7"><div class="ttname"><a href="classespaco.html#ab87c7438dedcba551dd75e941a4375f7">espaco::~espaco</a></div><div class="ttdeci">~espaco()</div><div class="ttdoc">Destrutor da classe espaco. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:27</div></div>
+<div class="ttc" id="classespaco_html_a5c12e64a4b086c930fd7957264c40daf"><div class="ttname"><a href="classespaco.html#a5c12e64a4b086c930fd7957264c40daf">espaco::getVolume</a></div><div class="ttdeci">float getVolume()</div><div class="ttdoc">Método getter para retornar o valor do volume da figura. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:85</div></div>
+<div class="ttc" id="classespaco_html_a9bbff7063c5c958880a24dfd4cce81b4"><div class="ttname"><a href="classespaco.html#a9bbff7063c5c958880a24dfd4cce81b4">espaco::espaco</a></div><div class="ttdeci">espaco()</div><div class="ttdoc">Construtador da classe espaco. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:11</div></div>
+<div class="ttc" id="classespaco_html_a3357a4acfddb4aa0b6e7f012ec51dc71"><div class="ttname"><a href="classespaco.html#a3357a4acfddb4aa0b6e7f012ec51dc71">espaco::setEsfera</a></div><div class="ttdeci">void setEsfera(string nome, string raio)</div><div class="ttdoc">Método setter para atribuir valores, caso seja uma esfera. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:68</div></div>
+<div class="ttc" id="classespaco_html_a75b4250810235e69dfa75bd5258b2c47"><div class="ttname"><a href="classespaco.html#a75b4250810235e69dfa75bd5258b2c47">espaco::setParalelepipedo</a></div><div class="ttdeci">void setParalelepipedo(string nome, string aresta1, string aresta2, string aresta3)</div><div class="ttdoc">Método setter para atribuir valores, caso seja um paralelepipedo. </div><div class="ttdef"><b>Definition:</b> espaco.cpp:56</div></div>
+<div class="ttc" id="classespaco_html"><div class="ttname"><a href="classespaco.html">espaco</a></div><div class="ttdoc">Classe responsável pelas figuras espaciais. </div><div class="ttdef"><b>Definition:</b> espaco.h:13</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Domingo, 22 de Abril de 2018 22:32:30 para Laboratório 2 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
